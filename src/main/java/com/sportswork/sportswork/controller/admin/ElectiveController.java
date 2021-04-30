@@ -10,11 +10,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
-/**
- * @author dengwei
- * @date 2020/2/3 12:11
- * @description
- */
 @Slf4j
 @Controller("electiveController")
 public class ElectiveController {

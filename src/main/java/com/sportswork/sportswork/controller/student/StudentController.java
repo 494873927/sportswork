@@ -16,11 +16,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 
-/**
- * @author dengwei
- * @date 2020/2/27 23:44
- * @description
- */
 @Slf4j
 @Controller("s_studentController")
 public class StudentController {
