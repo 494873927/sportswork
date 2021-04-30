@@ -5,11 +5,6 @@ import lombok.experimental.Accessors;
 
 import java.util.List;
 
-/**
- * @author dengwei
- * @date 2019/8/15 15:08
- * @description
- */
 @Data
 @Accessors(chain = true)
 public class PageDTO<T> {
