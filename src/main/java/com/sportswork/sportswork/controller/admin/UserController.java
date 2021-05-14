@@ -16,11 +16,6 @@ import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author dengwei
- * @date 2020/2/4 16:49
- * @description
- */
 @Slf4j
 @Controller("userEntityController")
 public class UserController {

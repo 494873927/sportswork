@@ -1,11 +1,5 @@
 package com.sportswork.sportswork.core.entity;
 
-/**
- * @author dengwei
- * @date 2020/1/9 13:23
- * @description
- */
-
 import lombok.*;
 import lombok.experimental.Accessors;
 
@@ -15,7 +9,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @RequiredArgsConstructor
-@Accessors(chain = true)
+@Accessors(chain = true)    // 该注解设置chain=true，生成setter方法返回this（也就是返回的是对象），代替了默认的返回void。
 public class User {
     private String id;
     private String openId;

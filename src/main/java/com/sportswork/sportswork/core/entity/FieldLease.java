@@ -9,11 +9,6 @@ import lombok.experimental.Accessors;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * @author dengwei
- * @date 2020/1/9 14:29
- * @description
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

@@ -6,11 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
-/**
- * @author dengwei
- * @date 2020/1/9 13:34
- * @description
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

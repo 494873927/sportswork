@@ -13,11 +13,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 
-/**
- * @author dengwei
- * @date 2020/3/8 19:36
- * @description
- */
 @Slf4j
 @Controller("menuController")
 public class MenuController {

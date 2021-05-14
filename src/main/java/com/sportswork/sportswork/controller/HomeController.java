@@ -1,11 +1,5 @@
 package com.sportswork.sportswork.controller;
 
-/**
- * @author dengwei
- * @date 2020/2/3 13:53
- * @description
- */
-
 import com.sportswork.sportswork.config.SecurityUserInfo;
 import com.sportswork.sportswork.core.entity.Role;
 import com.sportswork.sportswork.core.entity.Teaching;

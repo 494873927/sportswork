@@ -10,15 +10,10 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author dengwei
- * @date 2020/1/9 13:27
- * @description
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Accessors(chain = true)
+@Accessors(chain = true) //该注解设置chain=true，生成setter方法返回this（也就是返回的是对象），代替了默认的返回void。
 public class Course extends BaseEntity {
 
     public String getId(){

@@ -1,11 +1,17 @@
 package com.sportswork.sportswork.core.help;
 
-/**
- * @author dengwei
- * @date 2020/2/28 23:16
- * @description
- */
-public class RoleMenu {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
+
+import java.io.Serializable;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Accessors(chain = true)
+public class RoleMenu implements Serializable {
     private String id;
     private String roleId;
     private String menuId;
